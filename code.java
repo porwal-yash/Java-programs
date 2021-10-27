@@ -7,10 +7,9 @@ int a=10;
 int b=20;
   void swap(int x,int y)   
   {
-    int t;
-     t=x;
-     x=y;
-     y=t;
+    x = x + y;
+    y = x - y;
+    x = x - y;
    }
    public static void main(String[] a1) {
         obj_ref o1=new obj_ref();
