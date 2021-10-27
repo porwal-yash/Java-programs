@@ -2,5 +2,9 @@
 class code2{
 static{
   System.out.println("Hello world");
+  int a=10;
+  int b=20;
+  int sum =a+b;
+  System.out.println("sum of the two number is:- ",sum);
 }
 }
