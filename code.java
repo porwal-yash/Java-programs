@@ -2,19 +2,19 @@
 //call by reference or object reference
 
 class Operation2{  
- int data=50;  
+ int datax=50;  
   
- void change(Operation2 op){  
- op.data=op.data+100;//changes will be in the instance variable  
+ void change(Operation2 opp){  
+ opp.datax=opp.datax+100;//changes will be in the instance variable  
  }  
      
     
  public static void main(String args[]){  
-   Operation2 op=new Operation2();  
+   Operation2 opp=new Operation2();  
   
-   System.out.println("before change "+op.data);  
-   op.change(op);//passing object  
-   System.out.println("after change "+op.data);  
+   System.out.println("before change "+opp.datax);  
+   opp.change(opp);//passing object  
+   System.out.println("after change "+opp.datax);  
   
  }  
 }  
