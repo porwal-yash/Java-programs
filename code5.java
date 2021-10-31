@@ -9,12 +9,12 @@ Scanner  sc  =  new  Scanner(System.in);
 System.out.print("\nEnter  the  name:  "); 
 name=sc.nextLine(); 
 System.out.print("\nEnter  teacher  id:  "); teacher_id=sc.nextInt();
-System.out.print("\nChoose  the  type\n1.  Programming\n2.Theory\n");
+System.out.print("\nChoose  the  type\n1.  Programming\n2.Theory \n");
 int  opt=sc.nextInt(); 
 if(opt==1)
 subject="Java"; 
 else
-subject="Discrete  Mathematics";
+subject="Discrete  Mathematics is ";
 }
 
 void  output()
