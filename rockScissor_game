@@ -1,0 +1,53 @@
+package sparsh;
+
+import java.util.Scanner;
+
+public class rockgame {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int i = 1;
+		while (i < 5) {
+		int random = (int) (Math.random() * 3);
+		int num;
+		System.out.println("enter your choose 0:-rock  ,1:-paper ,2:-scissor ");
+		num = sc.nextInt();
+		if (num > 2) {
+			System.out.println("envalid number program exit");
+			System.exit(0);
+		}
+		switch (num) {
+		case 0:
+			if (num == random) {
+				System.out.println("tie no winner");
+			} else if (random == 1) {
+				System.out.println("computer is winner");
+			} else if (random == 2) {
+				System.out.println("you are winner");
+			}
+			break;
+		case 1:
+			if (num == random) {
+				System.out.println("tie no winner");
+			} else if (random == 2) {
+				System.out.println("computer is winner");
+			} else if (random == 0) {
+				System.out.println("you are winner");
+			}
+			break;
+		case 2:
+			if (num == random) {
+				System.out.println("tie no winner");
+			} else if (random == 0) {
+				System.out.println("computer is winner");
+			} else if (random == 1) {
+				System.out.println("you are winner");
+			}
+			break;
+		}
+		System.out.println("the number choosen by computer is " + random);
+		i++;
+	}
+	}
+}
