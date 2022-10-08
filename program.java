@@ -15,9 +15,9 @@ class program {
     System.out.print("\nChoose  the  type\n1.  Programming\n2.Theory\n");
     int opt = sc.nextInt();
     if (opt == 1)
-      subject = "Java";
+      subject = "Artificial Intelligence";
     else
-      subject = "Discrete  Mathematics";
+      subject = "Design and Analysis of Algorithms";
   }
 
   public void output() {
