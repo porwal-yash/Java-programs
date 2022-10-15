@@ -6,10 +6,10 @@ String  name; int  teacher_id; String  subject;
 teacher()
 {
 Scanner  sc  =  new  Scanner(System.in);
-System.out.print("\nEnter  the  name:  "); 
+System.out.println("Enter  the  name:  "); 
 name=sc.nextLine(); 
-System.out.print("\nEnter  teacher  id:  "); teacher_id=sc.nextInt();
-System.out.print("\nChoose  the  type\n1.  Programming\n2.Theory\n");
+System.out.println("Enter  teacher  id:  "); teacher_id=sc.nextInt();
+System.out.println("Choose  the  type\n1.  Programming\n2.Theory\n");
 int  opt=sc.nextInt(); 
 if(opt==1)
 subject="Java"; 
